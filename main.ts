@@ -19,7 +19,7 @@ basic.forever(function () {
     }
     basic.pause(200)
     if (meteoritoa.isTouchingEdge()) {
+        game.addScore(1)
         meteoritoa.delete()
-        game.setScore(1)
     }
 })
